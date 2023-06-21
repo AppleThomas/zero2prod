@@ -20,6 +20,7 @@ serde = {version = "1.0.164", features = ["derive"]}
 tokio = {version = "1.28.2", features = ["macros", "rt-multi-thread"]}
 uuid = { version = "0.8.1", features = ["v4"] }
 chrono = "0.4.15"
+env_logger = "0.9"
 
 # Using table-like toml syntax to avoid a super-long line!
 [dependencies.sqlx]
